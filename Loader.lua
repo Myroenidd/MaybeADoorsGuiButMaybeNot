@@ -18,6 +18,10 @@ wait(1.5)
 Caption.Text = "oh, i forgot to say.. bye bye!!"
 Sound:Play()
 wait(1.25)
+Caption.Text = "script made by me!!"
+Sound.Volume = 10
+Sound:Play()
+wait(0.5)
 Caption.Visible = false
 onLeaveSound:Play()
 wait(1)
