@@ -3,6 +3,8 @@ local Sound = game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.Remi
 local onLeaveSound = Instance.new("Sound")
 onLeaveSound.Parent = game:GetService("SoundService")
 onLeaveSound.SoundId = "rbxassetid://4809574295"
+onLeaveSound.PlaybackSpeed = 0.75
+onLeaveSound.Volume = 5
 Caption.Visible = true
 Sound:Play()
 Caption.Text = "loading ultra super pro doors gui"
