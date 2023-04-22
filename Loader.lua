@@ -1,5 +1,3 @@
-local scriptLoader = "idk"
-local scriptLoaderV2 = "bye i guess"
 local Caption = game.Players.LocalPlayer.PlayerGui.MainUI.MainFrame.Caption
 local Sound = game.Players.LocalPlayer.PlayerGui.MainUI.Initiator.Main_Game.Reminder.Caption
 local onLeaveSound = Instance.new("Sound")
@@ -17,6 +15,9 @@ wait(1)
 Caption.Text = "there isnt any gui to load LOL"
 Sound:Play()
 wait(1.5)
+Caption.Text = "oh, i forgot to say.. bye bye!!"
+Sound:Play()
+wait(1.25)
 Caption.Visible = false
 onLeaveSound:Play()
 wait(1)
