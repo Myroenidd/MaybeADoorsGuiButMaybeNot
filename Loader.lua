@@ -11,10 +11,10 @@ Caption.Text = "loading ultra super pro doors gui"
 wait(.7)
 Caption.Text = "...maybe."
 wait(2)
-Caption.Text = scriptloader
+Caption.Text = "so uh, you just got trolled"
 Sound:Play()
 wait(1)
-Caption.Text = scriptLoaderV2
+Caption.Text = "there isnt any gui to load LOL"
 Sound:Play()
 wait(1.5)
 Caption.Visible = false
