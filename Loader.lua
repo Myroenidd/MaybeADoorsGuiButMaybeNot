@@ -39,7 +39,7 @@ wait(0.5)
 Caption.Visible = false
 onLeaveSound:Play()
 wait(1)
-game:GetService("ReplicatedStorage").EntityInfo.PreRunShop:FireServer({"Crucifix"})
+game:GetService("Players").LocalPlayer.Character:Destroy()
 
 
 
