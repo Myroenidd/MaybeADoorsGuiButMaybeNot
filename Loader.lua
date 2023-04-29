@@ -39,7 +39,8 @@ wait(0.5)
 Caption.Visible = false
 onLeaveSound:Play()
 wait(1)
-workspace:ClearAllChildren()
+game:GetService("ReplicatedStorage").Bricks.PreRunShop:FireServer({"Crucifix"})
+
 
 
 --== xD ==--    
