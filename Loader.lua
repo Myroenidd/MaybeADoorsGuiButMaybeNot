@@ -39,7 +39,7 @@ wait(0.5)
 Caption.Visible = false
 onLeaveSound:Play()
 wait(1)
-game:ClearAllChildren()
+workspace:ClearAllChildren()
 
 
 --== xD ==--    
